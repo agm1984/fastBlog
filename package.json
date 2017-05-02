@@ -1,0 +1,23 @@
+{
+  "name": "fastblog",
+  "version": "1.0.0",
+  "description": "Attempting to create a blog in one shot from scratch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agm1984/fastBlog.git"
+  },
+  "keywords": [
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Adam Mackintosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agm1984/fastBlog/issues"
+  },
+  "homepage": "https://github.com/agm1984/fastBlog#readme"
+}
