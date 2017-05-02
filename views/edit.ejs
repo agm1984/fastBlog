@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<div class="newPost">
+  <h1>Edit Post</h1>
+  <form action="/blogs/<%= blog._id %>?_method=PUT" method="POST">
+    <input name="blog[title]" value="<%= blog.title %>"/><br />
+    <input name="blog[image]" value="<%= blog.image %>"/><br />
+    <textarea name="blog[body]"><%= blog.body %></textarea><br />
+    <button>Submit</button>
+  </form>
+</div>
+
+<% include partials/footer %>

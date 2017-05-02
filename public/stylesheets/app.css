@@ -1,0 +1,24 @@
+/* List View */
+.blogCard {
+  display: flex;
+}
+img {
+  height: 100%;
+  width: auto;
+}
+.postThumbnail {
+  height: 250px;
+  width: auto;
+}
+.postInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Create View */
+.newPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

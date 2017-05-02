@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+<div class="showPost">
+  <div>
+    <h1><%= blog.title %></h1>
+  </div>
+  <div>
+    <img src="<%= blog.image %>" />
+  </div>
+  <div>
+    <%= blog.body %>
+  </div>
+  <%= blog.created.toDateString() %>
+</div>
+
+<a href="/blogs/<%= blog._id %>/edit">Edit Post</a>
+
+<form action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+  <button>DELETE Post</button>
+</form>
+
+<% include partials/footer %>
